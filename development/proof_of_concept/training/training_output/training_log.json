@@ -1,0 +1,2252 @@
+[
+  {
+    "episode": 1,
+    "steps": 2000,
+    "mean_reward": -192.972,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 47,
+    "wall_hits": 0
+  },
+  {
+    "episode": 2,
+    "steps": 4000,
+    "mean_reward": -206.374,
+    "deliveries": 0,
+    "collisions": 18,
+    "safety_evts": 136,
+    "wall_hits": 0
+  },
+  {
+    "episode": 3,
+    "steps": 6000,
+    "mean_reward": -197.171,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 98,
+    "wall_hits": 0
+  },
+  {
+    "episode": 4,
+    "steps": 8000,
+    "mean_reward": -195.397,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 68,
+    "wall_hits": 0
+  },
+  {
+    "episode": 5,
+    "steps": 10000,
+    "mean_reward": -200.758,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 84,
+    "wall_hits": 0
+  },
+  {
+    "episode": 6,
+    "steps": 12000,
+    "mean_reward": -194.473,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 63,
+    "wall_hits": 0
+  },
+  {
+    "episode": 7,
+    "steps": 14000,
+    "mean_reward": -196.357,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 78,
+    "wall_hits": 0
+  },
+  {
+    "episode": 8,
+    "steps": 16000,
+    "mean_reward": -192.117,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 59,
+    "wall_hits": 0
+  },
+  {
+    "episode": 9,
+    "steps": 18000,
+    "mean_reward": -192.182,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 47,
+    "wall_hits": 0
+  },
+  {
+    "episode": 10,
+    "steps": 20000,
+    "mean_reward": -201.298,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 104,
+    "wall_hits": 0
+  },
+  {
+    "episode": 11,
+    "steps": 22000,
+    "mean_reward": -191.188,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 48,
+    "wall_hits": 0
+  },
+  {
+    "episode": 12,
+    "steps": 24000,
+    "mean_reward": -196.146,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 65,
+    "wall_hits": 0
+  },
+  {
+    "episode": 13,
+    "steps": 26000,
+    "mean_reward": -192.092,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 57,
+    "wall_hits": 0
+  },
+  {
+    "episode": 14,
+    "steps": 28000,
+    "mean_reward": -192.788,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 58,
+    "wall_hits": 0
+  },
+  {
+    "episode": 15,
+    "steps": 30000,
+    "mean_reward": -193.497,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 69,
+    "wall_hits": 0
+  },
+  {
+    "episode": 16,
+    "steps": 32000,
+    "mean_reward": -196.533,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 69,
+    "wall_hits": 0
+  },
+  {
+    "episode": 17,
+    "steps": 34000,
+    "mean_reward": -194.062,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 78,
+    "wall_hits": 0
+  },
+  {
+    "episode": 18,
+    "steps": 36000,
+    "mean_reward": -196.071,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 81,
+    "wall_hits": 0
+  },
+  {
+    "episode": 19,
+    "steps": 38000,
+    "mean_reward": -193.304,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 54,
+    "wall_hits": 0
+  },
+  {
+    "episode": 20,
+    "steps": 40000,
+    "mean_reward": -194.611,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 79,
+    "wall_hits": 0
+  },
+  {
+    "episode": 21,
+    "steps": 42000,
+    "mean_reward": -192.103,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 57,
+    "wall_hits": 0
+  },
+  {
+    "episode": 22,
+    "steps": 44000,
+    "mean_reward": -196.413,
+    "deliveries": 0,
+    "collisions": 15,
+    "safety_evts": 128,
+    "wall_hits": 0
+  },
+  {
+    "episode": 23,
+    "steps": 46000,
+    "mean_reward": -190.288,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 49,
+    "wall_hits": 0
+  },
+  {
+    "episode": 24,
+    "steps": 48000,
+    "mean_reward": -192.902,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 78,
+    "wall_hits": 0
+  },
+  {
+    "episode": 25,
+    "steps": 50000,
+    "mean_reward": -192.007,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 62,
+    "wall_hits": 0
+  },
+  {
+    "episode": 26,
+    "steps": 52000,
+    "mean_reward": -196.378,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 73,
+    "wall_hits": 0
+  },
+  {
+    "episode": 27,
+    "steps": 54000,
+    "mean_reward": -206.422,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 128,
+    "wall_hits": 0
+  },
+  {
+    "episode": 28,
+    "steps": 56000,
+    "mean_reward": -193.44,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 61,
+    "wall_hits": 0
+  },
+  {
+    "episode": 29,
+    "steps": 58000,
+    "mean_reward": -194.53,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 71,
+    "wall_hits": 0
+  },
+  {
+    "episode": 30,
+    "steps": 60000,
+    "mean_reward": -202.874,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 126,
+    "wall_hits": 0
+  },
+  {
+    "episode": 31,
+    "steps": 62000,
+    "mean_reward": -201.337,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 130,
+    "wall_hits": 0
+  },
+  {
+    "episode": 32,
+    "steps": 64000,
+    "mean_reward": -208.266,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 158,
+    "wall_hits": 0
+  },
+  {
+    "episode": 33,
+    "steps": 66000,
+    "mean_reward": -207.151,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 140,
+    "wall_hits": 0
+  },
+  {
+    "episode": 34,
+    "steps": 68000,
+    "mean_reward": -199.107,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 104,
+    "wall_hits": 0
+  },
+  {
+    "episode": 35,
+    "steps": 70000,
+    "mean_reward": -197.671,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 111,
+    "wall_hits": 0
+  },
+  {
+    "episode": 36,
+    "steps": 72000,
+    "mean_reward": -189.873,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 66,
+    "wall_hits": 0
+  },
+  {
+    "episode": 37,
+    "steps": 74000,
+    "mean_reward": -191.915,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 85,
+    "wall_hits": 0
+  },
+  {
+    "episode": 38,
+    "steps": 76000,
+    "mean_reward": -194.551,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 82,
+    "wall_hits": 0
+  },
+  {
+    "episode": 39,
+    "steps": 78000,
+    "mean_reward": -200.45,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 135,
+    "wall_hits": 0
+  },
+  {
+    "episode": 40,
+    "steps": 80000,
+    "mean_reward": -195.546,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 85,
+    "wall_hits": 0
+  },
+  {
+    "episode": 41,
+    "steps": 82000,
+    "mean_reward": -187.701,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 47,
+    "wall_hits": 0
+  },
+  {
+    "episode": 42,
+    "steps": 84000,
+    "mean_reward": -196.963,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 82,
+    "wall_hits": 0
+  },
+  {
+    "episode": 43,
+    "steps": 86000,
+    "mean_reward": -214.234,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 188,
+    "wall_hits": 0
+  },
+  {
+    "episode": 44,
+    "steps": 88000,
+    "mean_reward": -210.062,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 171,
+    "wall_hits": 0
+  },
+  {
+    "episode": 45,
+    "steps": 90000,
+    "mean_reward": -197.131,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 92,
+    "wall_hits": 0
+  },
+  {
+    "episode": 46,
+    "steps": 92000,
+    "mean_reward": -193.374,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 86,
+    "wall_hits": 0
+  },
+  {
+    "episode": 47,
+    "steps": 94000,
+    "mean_reward": -206.114,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 157,
+    "wall_hits": 0
+  },
+  {
+    "episode": 48,
+    "steps": 96000,
+    "mean_reward": -196.421,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 92,
+    "wall_hits": 0
+  },
+  {
+    "episode": 49,
+    "steps": 98000,
+    "mean_reward": -194.053,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 73,
+    "wall_hits": 0
+  },
+  {
+    "episode": 50,
+    "steps": 100000,
+    "mean_reward": -196.734,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 104,
+    "wall_hits": 0
+  },
+  {
+    "episode": 51,
+    "steps": 102000,
+    "mean_reward": -190.233,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 68,
+    "wall_hits": 0
+  },
+  {
+    "episode": 52,
+    "steps": 104000,
+    "mean_reward": -187.516,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 59,
+    "wall_hits": 0
+  },
+  {
+    "episode": 53,
+    "steps": 106000,
+    "mean_reward": -191.448,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 88,
+    "wall_hits": 0
+  },
+  {
+    "episode": 54,
+    "steps": 108000,
+    "mean_reward": -197.399,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 126,
+    "wall_hits": 0
+  },
+  {
+    "episode": 55,
+    "steps": 110000,
+    "mean_reward": -198.748,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 125,
+    "wall_hits": 0
+  },
+  {
+    "episode": 56,
+    "steps": 112000,
+    "mean_reward": -198.493,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 134,
+    "wall_hits": 0
+  },
+  {
+    "episode": 57,
+    "steps": 114000,
+    "mean_reward": -190.403,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 80,
+    "wall_hits": 0
+  },
+  {
+    "episode": 58,
+    "steps": 116000,
+    "mean_reward": -180.109,
+    "deliveries": 1,
+    "collisions": 17,
+    "safety_evts": 60,
+    "wall_hits": 0
+  },
+  {
+    "episode": 59,
+    "steps": 118000,
+    "mean_reward": -190.964,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 80,
+    "wall_hits": 0
+  },
+  {
+    "episode": 60,
+    "steps": 120000,
+    "mean_reward": -184.72,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 47,
+    "wall_hits": 0
+  },
+  {
+    "episode": 61,
+    "steps": 122000,
+    "mean_reward": -187.792,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 85,
+    "wall_hits": 0
+  },
+  {
+    "episode": 62,
+    "steps": 124000,
+    "mean_reward": -206.341,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 170,
+    "wall_hits": 0
+  },
+  {
+    "episode": 63,
+    "steps": 126000,
+    "mean_reward": -191.927,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 109,
+    "wall_hits": 0
+  },
+  {
+    "episode": 64,
+    "steps": 128000,
+    "mean_reward": -196.512,
+    "deliveries": 1,
+    "collisions": 17,
+    "safety_evts": 152,
+    "wall_hits": 0
+  },
+  {
+    "episode": 65,
+    "steps": 130000,
+    "mean_reward": -193.57,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 106,
+    "wall_hits": 0
+  },
+  {
+    "episode": 66,
+    "steps": 132000,
+    "mean_reward": -185.417,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 56,
+    "wall_hits": 0
+  },
+  {
+    "episode": 67,
+    "steps": 134000,
+    "mean_reward": -187.314,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 88,
+    "wall_hits": 0
+  },
+  {
+    "episode": 68,
+    "steps": 136000,
+    "mean_reward": -191.937,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 92,
+    "wall_hits": 0
+  },
+  {
+    "episode": 69,
+    "steps": 138000,
+    "mean_reward": -194.395,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 115,
+    "wall_hits": 0
+  },
+  {
+    "episode": 70,
+    "steps": 140000,
+    "mean_reward": -186.393,
+    "deliveries": 1,
+    "collisions": 16,
+    "safety_evts": 123,
+    "wall_hits": 0
+  },
+  {
+    "episode": 71,
+    "steps": 142000,
+    "mean_reward": -186.789,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 74,
+    "wall_hits": 0
+  },
+  {
+    "episode": 72,
+    "steps": 144000,
+    "mean_reward": -199.095,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 137,
+    "wall_hits": 0
+  },
+  {
+    "episode": 73,
+    "steps": 146000,
+    "mean_reward": -199.504,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 136,
+    "wall_hits": 0
+  },
+  {
+    "episode": 74,
+    "steps": 148000,
+    "mean_reward": -189.239,
+    "deliveries": 0,
+    "collisions": 15,
+    "safety_evts": 82,
+    "wall_hits": 0
+  },
+  {
+    "episode": 75,
+    "steps": 150000,
+    "mean_reward": -192.911,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 109,
+    "wall_hits": 0
+  },
+  {
+    "episode": 76,
+    "steps": 152000,
+    "mean_reward": -191.54,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 109,
+    "wall_hits": 0
+  },
+  {
+    "episode": 77,
+    "steps": 154000,
+    "mean_reward": -198.149,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 115,
+    "wall_hits": 0
+  },
+  {
+    "episode": 78,
+    "steps": 156000,
+    "mean_reward": -195.165,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 132,
+    "wall_hits": 0
+  },
+  {
+    "episode": 79,
+    "steps": 158000,
+    "mean_reward": -195.484,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 112,
+    "wall_hits": 0
+  },
+  {
+    "episode": 80,
+    "steps": 160000,
+    "mean_reward": -182.752,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 48,
+    "wall_hits": 0
+  },
+  {
+    "episode": 81,
+    "steps": 162000,
+    "mean_reward": -189.66,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 78,
+    "wall_hits": 0
+  },
+  {
+    "episode": 82,
+    "steps": 164000,
+    "mean_reward": -202.771,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 141,
+    "wall_hits": 0
+  },
+  {
+    "episode": 83,
+    "steps": 166000,
+    "mean_reward": -194.539,
+    "deliveries": 1,
+    "collisions": 17,
+    "safety_evts": 121,
+    "wall_hits": 0
+  },
+  {
+    "episode": 84,
+    "steps": 168000,
+    "mean_reward": -181.93,
+    "deliveries": 1,
+    "collisions": 15,
+    "safety_evts": 66,
+    "wall_hits": 0
+  },
+  {
+    "episode": 85,
+    "steps": 170000,
+    "mean_reward": -191.606,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 85,
+    "wall_hits": 0
+  },
+  {
+    "episode": 86,
+    "steps": 172000,
+    "mean_reward": -189.141,
+    "deliveries": 1,
+    "collisions": 17,
+    "safety_evts": 102,
+    "wall_hits": 0
+  },
+  {
+    "episode": 87,
+    "steps": 174000,
+    "mean_reward": -191.006,
+    "deliveries": 1,
+    "collisions": 17,
+    "safety_evts": 109,
+    "wall_hits": 0
+  },
+  {
+    "episode": 88,
+    "steps": 176000,
+    "mean_reward": -187.979,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 58,
+    "wall_hits": 0
+  },
+  {
+    "episode": 89,
+    "steps": 178000,
+    "mean_reward": -185.63,
+    "deliveries": 0,
+    "collisions": 15,
+    "safety_evts": 79,
+    "wall_hits": 0
+  },
+  {
+    "episode": 90,
+    "steps": 180000,
+    "mean_reward": -190.541,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 83,
+    "wall_hits": 0
+  },
+  {
+    "episode": 91,
+    "steps": 182000,
+    "mean_reward": -188.941,
+    "deliveries": 1,
+    "collisions": 17,
+    "safety_evts": 99,
+    "wall_hits": 0
+  },
+  {
+    "episode": 92,
+    "steps": 184000,
+    "mean_reward": -199.639,
+    "deliveries": 1,
+    "collisions": 16,
+    "safety_evts": 170,
+    "wall_hits": 0
+  },
+  {
+    "episode": 93,
+    "steps": 186000,
+    "mean_reward": -196.33,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 122,
+    "wall_hits": 0
+  },
+  {
+    "episode": 94,
+    "steps": 188000,
+    "mean_reward": -187.57,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 85,
+    "wall_hits": 0
+  },
+  {
+    "episode": 95,
+    "steps": 190000,
+    "mean_reward": -219.356,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 252,
+    "wall_hits": 0
+  },
+  {
+    "episode": 96,
+    "steps": 192000,
+    "mean_reward": -193.199,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 108,
+    "wall_hits": 0
+  },
+  {
+    "episode": 97,
+    "steps": 194000,
+    "mean_reward": -194.839,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 124,
+    "wall_hits": 0
+  },
+  {
+    "episode": 98,
+    "steps": 196000,
+    "mean_reward": -184.029,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 66,
+    "wall_hits": 0
+  },
+  {
+    "episode": 99,
+    "steps": 198000,
+    "mean_reward": -187.76,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 81,
+    "wall_hits": 0
+  },
+  {
+    "episode": 100,
+    "steps": 200000,
+    "mean_reward": -182.078,
+    "deliveries": 1,
+    "collisions": 16,
+    "safety_evts": 66,
+    "wall_hits": 0
+  },
+  {
+    "episode": 101,
+    "steps": 202000,
+    "mean_reward": -181.688,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 99,
+    "wall_hits": 0
+  },
+  {
+    "episode": 102,
+    "steps": 204000,
+    "mean_reward": -182.167,
+    "deliveries": 1,
+    "collisions": 16,
+    "safety_evts": 83,
+    "wall_hits": 0
+  },
+  {
+    "episode": 103,
+    "steps": 206000,
+    "mean_reward": -188.463,
+    "deliveries": 1,
+    "collisions": 15,
+    "safety_evts": 108,
+    "wall_hits": 0
+  },
+  {
+    "episode": 104,
+    "steps": 208000,
+    "mean_reward": -186.403,
+    "deliveries": 1,
+    "collisions": 16,
+    "safety_evts": 95,
+    "wall_hits": 0
+  },
+  {
+    "episode": 105,
+    "steps": 210000,
+    "mean_reward": -181.697,
+    "deliveries": 1,
+    "collisions": 16,
+    "safety_evts": 64,
+    "wall_hits": 0
+  },
+  {
+    "episode": 106,
+    "steps": 212000,
+    "mean_reward": -181.182,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 99,
+    "wall_hits": 0
+  },
+  {
+    "episode": 107,
+    "steps": 214000,
+    "mean_reward": -186.543,
+    "deliveries": 1,
+    "collisions": 17,
+    "safety_evts": 135,
+    "wall_hits": 0
+  },
+  {
+    "episode": 108,
+    "steps": 216000,
+    "mean_reward": -182.201,
+    "deliveries": 1,
+    "collisions": 16,
+    "safety_evts": 89,
+    "wall_hits": 0
+  },
+  {
+    "episode": 109,
+    "steps": 218000,
+    "mean_reward": -186.284,
+    "deliveries": 1,
+    "collisions": 16,
+    "safety_evts": 101,
+    "wall_hits": 0
+  },
+  {
+    "episode": 110,
+    "steps": 220000,
+    "mean_reward": -181.299,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 97,
+    "wall_hits": 0
+  },
+  {
+    "episode": 111,
+    "steps": 222000,
+    "mean_reward": -188.861,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 100,
+    "wall_hits": 0
+  },
+  {
+    "episode": 112,
+    "steps": 224000,
+    "mean_reward": -182.76,
+    "deliveries": 1,
+    "collisions": 16,
+    "safety_evts": 77,
+    "wall_hits": 0
+  },
+  {
+    "episode": 113,
+    "steps": 226000,
+    "mean_reward": -182.241,
+    "deliveries": 1,
+    "collisions": 17,
+    "safety_evts": 75,
+    "wall_hits": 0
+  },
+  {
+    "episode": 114,
+    "steps": 228000,
+    "mean_reward": -189.315,
+    "deliveries": 1,
+    "collisions": 17,
+    "safety_evts": 115,
+    "wall_hits": 0
+  },
+  {
+    "episode": 115,
+    "steps": 230000,
+    "mean_reward": -182.283,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 97,
+    "wall_hits": 0
+  },
+  {
+    "episode": 116,
+    "steps": 232000,
+    "mean_reward": -180.483,
+    "deliveries": 3,
+    "collisions": 17,
+    "safety_evts": 119,
+    "wall_hits": 0
+  },
+  {
+    "episode": 117,
+    "steps": 234000,
+    "mean_reward": -180.867,
+    "deliveries": 1,
+    "collisions": 17,
+    "safety_evts": 66,
+    "wall_hits": 0
+  },
+  {
+    "episode": 118,
+    "steps": 236000,
+    "mean_reward": -175.017,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 74,
+    "wall_hits": 0
+  },
+  {
+    "episode": 119,
+    "steps": 238000,
+    "mean_reward": -183.155,
+    "deliveries": 1,
+    "collisions": 17,
+    "safety_evts": 70,
+    "wall_hits": 0
+  },
+  {
+    "episode": 120,
+    "steps": 240000,
+    "mean_reward": -179.728,
+    "deliveries": 1,
+    "collisions": 16,
+    "safety_evts": 83,
+    "wall_hits": 0
+  },
+  {
+    "episode": 121,
+    "steps": 242000,
+    "mean_reward": -193.913,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 132,
+    "wall_hits": 0
+  },
+  {
+    "episode": 122,
+    "steps": 244000,
+    "mean_reward": -185.252,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 122,
+    "wall_hits": 0
+  },
+  {
+    "episode": 123,
+    "steps": 246000,
+    "mean_reward": -180.482,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 126,
+    "wall_hits": 0
+  },
+  {
+    "episode": 124,
+    "steps": 248000,
+    "mean_reward": -178.098,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 95,
+    "wall_hits": 0
+  },
+  {
+    "episode": 125,
+    "steps": 250000,
+    "mean_reward": -185.682,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 96,
+    "wall_hits": 0
+  },
+  {
+    "episode": 126,
+    "steps": 252000,
+    "mean_reward": -182.776,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 67,
+    "wall_hits": 0
+  },
+  {
+    "episode": 127,
+    "steps": 254000,
+    "mean_reward": -182.586,
+    "deliveries": 1,
+    "collisions": 16,
+    "safety_evts": 109,
+    "wall_hits": 0
+  },
+  {
+    "episode": 128,
+    "steps": 256000,
+    "mean_reward": -181.439,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 134,
+    "wall_hits": 0
+  },
+  {
+    "episode": 129,
+    "steps": 258000,
+    "mean_reward": -178.346,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 99,
+    "wall_hits": 0
+  },
+  {
+    "episode": 130,
+    "steps": 260000,
+    "mean_reward": -186.804,
+    "deliveries": 0,
+    "collisions": 17,
+    "safety_evts": 82,
+    "wall_hits": 0
+  },
+  {
+    "episode": 131,
+    "steps": 262000,
+    "mean_reward": -192.983,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 180,
+    "wall_hits": 0
+  },
+  {
+    "episode": 132,
+    "steps": 264000,
+    "mean_reward": -179.618,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 121,
+    "wall_hits": 0
+  },
+  {
+    "episode": 133,
+    "steps": 266000,
+    "mean_reward": -176.202,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 63,
+    "wall_hits": 0
+  },
+  {
+    "episode": 134,
+    "steps": 268000,
+    "mean_reward": -183.782,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 125,
+    "wall_hits": 0
+  },
+  {
+    "episode": 135,
+    "steps": 270000,
+    "mean_reward": -175.065,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 82,
+    "wall_hits": 0
+  },
+  {
+    "episode": 136,
+    "steps": 272000,
+    "mean_reward": -175.614,
+    "deliveries": 1,
+    "collisions": 16,
+    "safety_evts": 73,
+    "wall_hits": 0
+  },
+  {
+    "episode": 137,
+    "steps": 274000,
+    "mean_reward": -182.372,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 136,
+    "wall_hits": 0
+  },
+  {
+    "episode": 138,
+    "steps": 276000,
+    "mean_reward": -180.949,
+    "deliveries": 1,
+    "collisions": 17,
+    "safety_evts": 51,
+    "wall_hits": 0
+  },
+  {
+    "episode": 139,
+    "steps": 278000,
+    "mean_reward": -177.05,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 103,
+    "wall_hits": 0
+  },
+  {
+    "episode": 140,
+    "steps": 280000,
+    "mean_reward": -176.737,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 92,
+    "wall_hits": 0
+  },
+  {
+    "episode": 141,
+    "steps": 282000,
+    "mean_reward": -185.473,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 149,
+    "wall_hits": 0
+  },
+  {
+    "episode": 142,
+    "steps": 284000,
+    "mean_reward": -178.209,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 99,
+    "wall_hits": 0
+  },
+  {
+    "episode": 143,
+    "steps": 286000,
+    "mean_reward": -173.141,
+    "deliveries": 3,
+    "collisions": 17,
+    "safety_evts": 109,
+    "wall_hits": 0
+  },
+  {
+    "episode": 144,
+    "steps": 288000,
+    "mean_reward": -173.688,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 85,
+    "wall_hits": 0
+  },
+  {
+    "episode": 145,
+    "steps": 290000,
+    "mean_reward": -203.322,
+    "deliveries": 1,
+    "collisions": 16,
+    "safety_evts": 193,
+    "wall_hits": 0
+  },
+  {
+    "episode": 146,
+    "steps": 292000,
+    "mean_reward": -169.332,
+    "deliveries": 3,
+    "collisions": 17,
+    "safety_evts": 62,
+    "wall_hits": 0
+  },
+  {
+    "episode": 147,
+    "steps": 294000,
+    "mean_reward": -186.57,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 143,
+    "wall_hits": 0
+  },
+  {
+    "episode": 148,
+    "steps": 296000,
+    "mean_reward": -186.511,
+    "deliveries": 1,
+    "collisions": 16,
+    "safety_evts": 103,
+    "wall_hits": 0
+  },
+  {
+    "episode": 149,
+    "steps": 298000,
+    "mean_reward": -180.944,
+    "deliveries": 1,
+    "collisions": 16,
+    "safety_evts": 94,
+    "wall_hits": 0
+  },
+  {
+    "episode": 150,
+    "steps": 300000,
+    "mean_reward": -189.222,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 133,
+    "wall_hits": 0
+  },
+  {
+    "episode": 151,
+    "steps": 302000,
+    "mean_reward": -185.904,
+    "deliveries": 1,
+    "collisions": 17,
+    "safety_evts": 103,
+    "wall_hits": 0
+  },
+  {
+    "episode": 152,
+    "steps": 304000,
+    "mean_reward": -182.976,
+    "deliveries": 1,
+    "collisions": 17,
+    "safety_evts": 67,
+    "wall_hits": 0
+  },
+  {
+    "episode": 153,
+    "steps": 306000,
+    "mean_reward": -179.337,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 88,
+    "wall_hits": 0
+  },
+  {
+    "episode": 154,
+    "steps": 308000,
+    "mean_reward": -185.773,
+    "deliveries": 1,
+    "collisions": 16,
+    "safety_evts": 131,
+    "wall_hits": 0
+  },
+  {
+    "episode": 155,
+    "steps": 310000,
+    "mean_reward": -189.765,
+    "deliveries": 2,
+    "collisions": 15,
+    "safety_evts": 150,
+    "wall_hits": 0
+  },
+  {
+    "episode": 156,
+    "steps": 312000,
+    "mean_reward": -187.208,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 157,
+    "wall_hits": 0
+  },
+  {
+    "episode": 157,
+    "steps": 314000,
+    "mean_reward": -180.055,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 118,
+    "wall_hits": 0
+  },
+  {
+    "episode": 158,
+    "steps": 316000,
+    "mean_reward": -187.098,
+    "deliveries": 3,
+    "collisions": 17,
+    "safety_evts": 217,
+    "wall_hits": 0
+  },
+  {
+    "episode": 159,
+    "steps": 318000,
+    "mean_reward": -175.07,
+    "deliveries": 3,
+    "collisions": 17,
+    "safety_evts": 101,
+    "wall_hits": 0
+  },
+  {
+    "episode": 160,
+    "steps": 320000,
+    "mean_reward": -177.51,
+    "deliveries": 2,
+    "collisions": 15,
+    "safety_evts": 92,
+    "wall_hits": 0
+  },
+  {
+    "episode": 161,
+    "steps": 322000,
+    "mean_reward": -196.432,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 236,
+    "wall_hits": 0
+  },
+  {
+    "episode": 162,
+    "steps": 324000,
+    "mean_reward": -178.392,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 88,
+    "wall_hits": 0
+  },
+  {
+    "episode": 163,
+    "steps": 326000,
+    "mean_reward": -203.655,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 249,
+    "wall_hits": 0
+  },
+  {
+    "episode": 164,
+    "steps": 328000,
+    "mean_reward": -181.267,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 114,
+    "wall_hits": 0
+  },
+  {
+    "episode": 165,
+    "steps": 330000,
+    "mean_reward": -179.298,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 77,
+    "wall_hits": 0
+  },
+  {
+    "episode": 166,
+    "steps": 332000,
+    "mean_reward": -184.769,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 136,
+    "wall_hits": 0
+  },
+  {
+    "episode": 167,
+    "steps": 334000,
+    "mean_reward": -206.493,
+    "deliveries": 1,
+    "collisions": 17,
+    "safety_evts": 235,
+    "wall_hits": 0
+  },
+  {
+    "episode": 168,
+    "steps": 336000,
+    "mean_reward": -189.836,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 148,
+    "wall_hits": 0
+  },
+  {
+    "episode": 169,
+    "steps": 338000,
+    "mean_reward": -177.212,
+    "deliveries": 1,
+    "collisions": 16,
+    "safety_evts": 67,
+    "wall_hits": 0
+  },
+  {
+    "episode": 170,
+    "steps": 340000,
+    "mean_reward": -182.616,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 145,
+    "wall_hits": 0
+  },
+  {
+    "episode": 171,
+    "steps": 342000,
+    "mean_reward": -171.399,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 89,
+    "wall_hits": 0
+  },
+  {
+    "episode": 172,
+    "steps": 344000,
+    "mean_reward": -191.314,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 204,
+    "wall_hits": 0
+  },
+  {
+    "episode": 173,
+    "steps": 346000,
+    "mean_reward": -178.729,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 95,
+    "wall_hits": 0
+  },
+  {
+    "episode": 174,
+    "steps": 348000,
+    "mean_reward": -184.552,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 166,
+    "wall_hits": 0
+  },
+  {
+    "episode": 175,
+    "steps": 350000,
+    "mean_reward": -197.54,
+    "deliveries": 3,
+    "collisions": 17,
+    "safety_evts": 236,
+    "wall_hits": 0
+  },
+  {
+    "episode": 176,
+    "steps": 352000,
+    "mean_reward": -175.634,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 81,
+    "wall_hits": 0
+  },
+  {
+    "episode": 177,
+    "steps": 354000,
+    "mean_reward": -183.469,
+    "deliveries": 1,
+    "collisions": 17,
+    "safety_evts": 102,
+    "wall_hits": 0
+  },
+  {
+    "episode": 178,
+    "steps": 356000,
+    "mean_reward": -178.129,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 98,
+    "wall_hits": 0
+  },
+  {
+    "episode": 179,
+    "steps": 358000,
+    "mean_reward": -174.018,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 104,
+    "wall_hits": 0
+  },
+  {
+    "episode": 180,
+    "steps": 360000,
+    "mean_reward": -173.178,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 102,
+    "wall_hits": 0
+  },
+  {
+    "episode": 181,
+    "steps": 362000,
+    "mean_reward": -171.478,
+    "deliveries": 3,
+    "collisions": 17,
+    "safety_evts": 91,
+    "wall_hits": 0
+  },
+  {
+    "episode": 182,
+    "steps": 364000,
+    "mean_reward": -176.217,
+    "deliveries": 3,
+    "collisions": 17,
+    "safety_evts": 128,
+    "wall_hits": 0
+  },
+  {
+    "episode": 183,
+    "steps": 366000,
+    "mean_reward": -173.643,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 92,
+    "wall_hits": 0
+  },
+  {
+    "episode": 184,
+    "steps": 368000,
+    "mean_reward": -177.532,
+    "deliveries": 2,
+    "collisions": 18,
+    "safety_evts": 99,
+    "wall_hits": 0
+  },
+  {
+    "episode": 185,
+    "steps": 370000,
+    "mean_reward": -184.704,
+    "deliveries": 1,
+    "collisions": 16,
+    "safety_evts": 109,
+    "wall_hits": 0
+  },
+  {
+    "episode": 186,
+    "steps": 372000,
+    "mean_reward": -189.739,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 175,
+    "wall_hits": 0
+  },
+  {
+    "episode": 187,
+    "steps": 374000,
+    "mean_reward": -180.352,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 158,
+    "wall_hits": 0
+  },
+  {
+    "episode": 188,
+    "steps": 376000,
+    "mean_reward": -176.596,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 92,
+    "wall_hits": 0
+  },
+  {
+    "episode": 189,
+    "steps": 378000,
+    "mean_reward": -162.155,
+    "deliveries": 4,
+    "collisions": 16,
+    "safety_evts": 66,
+    "wall_hits": 0
+  },
+  {
+    "episode": 190,
+    "steps": 380000,
+    "mean_reward": -189.01,
+    "deliveries": 0,
+    "collisions": 16,
+    "safety_evts": 94,
+    "wall_hits": 0
+  },
+  {
+    "episode": 191,
+    "steps": 382000,
+    "mean_reward": -183.423,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 115,
+    "wall_hits": 0
+  },
+  {
+    "episode": 192,
+    "steps": 384000,
+    "mean_reward": -187.109,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 154,
+    "wall_hits": 0
+  },
+  {
+    "episode": 193,
+    "steps": 386000,
+    "mean_reward": -185.128,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 144,
+    "wall_hits": 0
+  },
+  {
+    "episode": 194,
+    "steps": 388000,
+    "mean_reward": -184.207,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 105,
+    "wall_hits": 0
+  },
+  {
+    "episode": 195,
+    "steps": 390000,
+    "mean_reward": -184.494,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 184,
+    "wall_hits": 0
+  },
+  {
+    "episode": 196,
+    "steps": 392000,
+    "mean_reward": -179.642,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 86,
+    "wall_hits": 0
+  },
+  {
+    "episode": 197,
+    "steps": 394000,
+    "mean_reward": -177.554,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 115,
+    "wall_hits": 0
+  },
+  {
+    "episode": 198,
+    "steps": 396000,
+    "mean_reward": -176.933,
+    "deliveries": 3,
+    "collisions": 17,
+    "safety_evts": 124,
+    "wall_hits": 0
+  },
+  {
+    "episode": 199,
+    "steps": 398000,
+    "mean_reward": -183.765,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 165,
+    "wall_hits": 0
+  },
+  {
+    "episode": 200,
+    "steps": 400000,
+    "mean_reward": -177.895,
+    "deliveries": 3,
+    "collisions": 17,
+    "safety_evts": 133,
+    "wall_hits": 0
+  },
+  {
+    "episode": 201,
+    "steps": 402000,
+    "mean_reward": -179.137,
+    "deliveries": 3,
+    "collisions": 15,
+    "safety_evts": 157,
+    "wall_hits": 0
+  },
+  {
+    "episode": 202,
+    "steps": 404000,
+    "mean_reward": -169.648,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 80,
+    "wall_hits": 0
+  },
+  {
+    "episode": 203,
+    "steps": 406000,
+    "mean_reward": -176.123,
+    "deliveries": 3,
+    "collisions": 17,
+    "safety_evts": 110,
+    "wall_hits": 0
+  },
+  {
+    "episode": 204,
+    "steps": 408000,
+    "mean_reward": -183.045,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 99,
+    "wall_hits": 0
+  },
+  {
+    "episode": 205,
+    "steps": 410000,
+    "mean_reward": -182.692,
+    "deliveries": 3,
+    "collisions": 17,
+    "safety_evts": 146,
+    "wall_hits": 0
+  },
+  {
+    "episode": 206,
+    "steps": 412000,
+    "mean_reward": -180.522,
+    "deliveries": 3,
+    "collisions": 17,
+    "safety_evts": 137,
+    "wall_hits": 0
+  },
+  {
+    "episode": 207,
+    "steps": 414000,
+    "mean_reward": -184.042,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 117,
+    "wall_hits": 0
+  },
+  {
+    "episode": 208,
+    "steps": 416000,
+    "mean_reward": -185.582,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 171,
+    "wall_hits": 0
+  },
+  {
+    "episode": 209,
+    "steps": 418000,
+    "mean_reward": -168.994,
+    "deliveries": 3,
+    "collisions": 17,
+    "safety_evts": 112,
+    "wall_hits": 0
+  },
+  {
+    "episode": 210,
+    "steps": 420000,
+    "mean_reward": -204.201,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 290,
+    "wall_hits": 0
+  },
+  {
+    "episode": 211,
+    "steps": 422000,
+    "mean_reward": -173.887,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 101,
+    "wall_hits": 0
+  },
+  {
+    "episode": 212,
+    "steps": 424000,
+    "mean_reward": -181.018,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 136,
+    "wall_hits": 0
+  },
+  {
+    "episode": 213,
+    "steps": 426000,
+    "mean_reward": -172.856,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 71,
+    "wall_hits": 0
+  },
+  {
+    "episode": 214,
+    "steps": 428000,
+    "mean_reward": -183.478,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 143,
+    "wall_hits": 0
+  },
+  {
+    "episode": 215,
+    "steps": 430000,
+    "mean_reward": -182.988,
+    "deliveries": 3,
+    "collisions": 17,
+    "safety_evts": 156,
+    "wall_hits": 0
+  },
+  {
+    "episode": 216,
+    "steps": 432000,
+    "mean_reward": -173.532,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 80,
+    "wall_hits": 0
+  },
+  {
+    "episode": 217,
+    "steps": 434000,
+    "mean_reward": -176.376,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 141,
+    "wall_hits": 0
+  },
+  {
+    "episode": 218,
+    "steps": 436000,
+    "mean_reward": -165.179,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 72,
+    "wall_hits": 0
+  },
+  {
+    "episode": 219,
+    "steps": 438000,
+    "mean_reward": -171.705,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 123,
+    "wall_hits": 0
+  },
+  {
+    "episode": 220,
+    "steps": 440000,
+    "mean_reward": -182.134,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 135,
+    "wall_hits": 0
+  },
+  {
+    "episode": 221,
+    "steps": 442000,
+    "mean_reward": -175.203,
+    "deliveries": 2,
+    "collisions": 15,
+    "safety_evts": 110,
+    "wall_hits": 0
+  },
+  {
+    "episode": 222,
+    "steps": 444000,
+    "mean_reward": -167.366,
+    "deliveries": 4,
+    "collisions": 17,
+    "safety_evts": 123,
+    "wall_hits": 0
+  },
+  {
+    "episode": 223,
+    "steps": 446000,
+    "mean_reward": -163.426,
+    "deliveries": 3,
+    "collisions": 17,
+    "safety_evts": 42,
+    "wall_hits": 0
+  },
+  {
+    "episode": 224,
+    "steps": 448000,
+    "mean_reward": -160.544,
+    "deliveries": 4,
+    "collisions": 17,
+    "safety_evts": 78,
+    "wall_hits": 0
+  },
+  {
+    "episode": 225,
+    "steps": 450000,
+    "mean_reward": -176.743,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 163,
+    "wall_hits": 0
+  },
+  {
+    "episode": 226,
+    "steps": 452000,
+    "mean_reward": -184.364,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 128,
+    "wall_hits": 0
+  },
+  {
+    "episode": 227,
+    "steps": 454000,
+    "mean_reward": -174.122,
+    "deliveries": 4,
+    "collisions": 17,
+    "safety_evts": 140,
+    "wall_hits": 0
+  },
+  {
+    "episode": 228,
+    "steps": 456000,
+    "mean_reward": -177.779,
+    "deliveries": 3,
+    "collisions": 17,
+    "safety_evts": 142,
+    "wall_hits": 0
+  },
+  {
+    "episode": 229,
+    "steps": 458000,
+    "mean_reward": -187.637,
+    "deliveries": 4,
+    "collisions": 17,
+    "safety_evts": 219,
+    "wall_hits": 0
+  },
+  {
+    "episode": 230,
+    "steps": 460000,
+    "mean_reward": -172.759,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 85,
+    "wall_hits": 0
+  },
+  {
+    "episode": 231,
+    "steps": 462000,
+    "mean_reward": -163.19,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 49,
+    "wall_hits": 0
+  },
+  {
+    "episode": 232,
+    "steps": 464000,
+    "mean_reward": -166.013,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 72,
+    "wall_hits": 0
+  },
+  {
+    "episode": 233,
+    "steps": 466000,
+    "mean_reward": -168.488,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 69,
+    "wall_hits": 0
+  },
+  {
+    "episode": 234,
+    "steps": 468000,
+    "mean_reward": -173.915,
+    "deliveries": 2,
+    "collisions": 16,
+    "safety_evts": 80,
+    "wall_hits": 0
+  },
+  {
+    "episode": 235,
+    "steps": 470000,
+    "mean_reward": -172.877,
+    "deliveries": 3,
+    "collisions": 17,
+    "safety_evts": 86,
+    "wall_hits": 0
+  },
+  {
+    "episode": 236,
+    "steps": 472000,
+    "mean_reward": -163.289,
+    "deliveries": 3,
+    "collisions": 17,
+    "safety_evts": 62,
+    "wall_hits": 0
+  },
+  {
+    "episode": 237,
+    "steps": 474000,
+    "mean_reward": -169.278,
+    "deliveries": 4,
+    "collisions": 16,
+    "safety_evts": 107,
+    "wall_hits": 0
+  },
+  {
+    "episode": 238,
+    "steps": 476000,
+    "mean_reward": -170.4,
+    "deliveries": 3,
+    "collisions": 15,
+    "safety_evts": 116,
+    "wall_hits": 0
+  },
+  {
+    "episode": 239,
+    "steps": 478000,
+    "mean_reward": -167.394,
+    "deliveries": 3,
+    "collisions": 15,
+    "safety_evts": 62,
+    "wall_hits": 0
+  },
+  {
+    "episode": 240,
+    "steps": 480000,
+    "mean_reward": -175.247,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 157,
+    "wall_hits": 0
+  },
+  {
+    "episode": 241,
+    "steps": 482000,
+    "mean_reward": -180.413,
+    "deliveries": 2,
+    "collisions": 15,
+    "safety_evts": 138,
+    "wall_hits": 0
+  },
+  {
+    "episode": 242,
+    "steps": 484000,
+    "mean_reward": -174.22,
+    "deliveries": 2,
+    "collisions": 17,
+    "safety_evts": 83,
+    "wall_hits": 0
+  },
+  {
+    "episode": 243,
+    "steps": 486000,
+    "mean_reward": -165.89,
+    "deliveries": 4,
+    "collisions": 16,
+    "safety_evts": 103,
+    "wall_hits": 0
+  },
+  {
+    "episode": 244,
+    "steps": 488000,
+    "mean_reward": -173.056,
+    "deliveries": 4,
+    "collisions": 17,
+    "safety_evts": 134,
+    "wall_hits": 0
+  },
+  {
+    "episode": 245,
+    "steps": 490000,
+    "mean_reward": -168.391,
+    "deliveries": 3,
+    "collisions": 17,
+    "safety_evts": 102,
+    "wall_hits": 0
+  },
+  {
+    "episode": 246,
+    "steps": 492000,
+    "mean_reward": -174.172,
+    "deliveries": 4,
+    "collisions": 17,
+    "safety_evts": 135,
+    "wall_hits": 0
+  },
+  {
+    "episode": 247,
+    "steps": 494000,
+    "mean_reward": -171.102,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 95,
+    "wall_hits": 0
+  },
+  {
+    "episode": 248,
+    "steps": 496000,
+    "mean_reward": -171.241,
+    "deliveries": 3,
+    "collisions": 16,
+    "safety_evts": 106,
+    "wall_hits": 0
+  },
+  {
+    "episode": 249,
+    "steps": 498000,
+    "mean_reward": -167.434,
+    "deliveries": 4,
+    "collisions": 17,
+    "safety_evts": 110,
+    "wall_hits": 0
+  },
+  {
+    "episode": 250,
+    "steps": 500000,
+    "mean_reward": -165.447,
+    "deliveries": 4,
+    "collisions": 17,
+    "safety_evts": 82,
+    "wall_hits": 0
+  }
+]
