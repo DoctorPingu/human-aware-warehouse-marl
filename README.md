@@ -30,7 +30,7 @@ Main comparison: 24 conditions, 10 independently trained seeds, 2,880 ten-minute
 - The safety advantage holds with denser crowds, more robots than in training, and changed human behaviour (walking speed and avoidance radius).
 - The reward sets the operating point: rewarded for throughput alone, the same algorithm beats ORCA (364 against 350 orders per hour on Small 1).
 - Throughput was still rising at 10M training steps (220, 249 and 279 orders per hour at 3M, 6M and 10M), so the policies had not converged.
-- Nine of ten pre-registered hypotheses were supported (see [PRE-REGISTRATION.md](PRE-REGISTRATION.md)).
+- Nine of ten pre-registered hypotheses were supported (see [docs/PRE-REGISTRATION.md](docs/PRE-REGISTRATION.md)).
 
 Full tables, significance tests and figures for every suite are in [results/analysis/summary.md](results/analysis/summary.md).
 
@@ -39,31 +39,33 @@ Full tables, significance tests and figures for every suite are in [results/anal
 
 ```
 .
-├── run_all.py              Runs every stage: check, train, evaluate, analyse, video; with status, pause and resume
-├── warehouse_env.py        The simulation: robots, people (RVO2), rewards and metrics (Gymnasium)
-├── layouts.py              The six warehouse layouts as data, with a self-check for route clearances
-├── policies.py             The four controllers: ORCA/RVO, heuristic, MAPF and the trained PPO policy
-├── networks.py             Actor and critic networks
-├── train.py                Trains one CTDE PPO policy
-├── curriculum.py           Runs the three-stage curriculum arm
-├── evaluate.py             Runs the evaluation suites on held-out episodes
-├── analyze.py              Seed-level statistics, tables and figures
-├── make_video.py           Side-by-side comparison videos
-├── planner.py              Route generator used to build the layouts
-├── render_layouts_3d.py    Illustrative 3D renders of the layouts
-├── PRE-REGISTRATION.md     Hypotheses and analysis plan, registered before the final run
-├── requirements.txt
-├── results/                Final results: one CSV per suite, plus results/analysis (tables and figures)
-├── development/            Earlier work, kept as a record of how the method evolved
-│   ├── proof_of_concept/   The first environment, trainer and demos
-│   ├── pilot/              Pilot batch results
-│   ├── 3m/                 3M-step development batch results
-│   └── 6m/                 6M-step development batch results
-└── docs/
-    └── METHODOLOGY_NOTES.md  Every change from the original methodology, with reasons
+├── src/
+│   ├── run_all.py              Runs every stage: check, train, evaluate, analyse, video; with status, pause and resume
+│   ├── warehouse_env.py        The simulation: robots, people (RVO2), rewards and metrics (Gymnasium)
+│   ├── layouts.py              The six warehouse layouts as data, with a self-check for route clearances
+│   ├── policies.py             The four controllers: ORCA/RVO, heuristic, MAPF and the trained PPO policy
+│   ├── networks.py             Actor and critic networks
+│   ├── train.py                Trains one CTDE PPO policy
+│   ├── curriculum.py           Runs the three-stage curriculum arm
+│   ├── evaluate.py             Runs the evaluation suites on held-out episodes
+│   ├── analyze.py              Seed-level statistics, tables and figures
+│   ├── make_video.py           Side-by-side comparison videos
+│   ├── planner.py              Route generator used to build the layouts
+│   └── render_layouts_3d.py    Illustrative 3D renders of the layouts
+├── results/                    Final results: one CSV per suite, plus results/analysis (tables and figures)
+├── development/                Earlier work, kept as a record of how the method evolved
+│   ├── proof_of_concept/       The first environment, trainer and demos
+│   ├── pilot/                  Pilot batch results
+│   ├── 3m/                     3M-step development batch results
+│   └── 6m/                     6M-step development batch results
+├── docs/
+│   ├── PRE-REGISTRATION.md     Hypotheses and analysis plan, registered before the final run
+│   ├── METHODOLOGY-NOTES.md    Every change from the original methodology, with reasons
+│   ├── presentations/          Pitch decks and scripts
+│   └── thesis/                 Research proposal and thesis
+└── requirements.txt
 ```
-
-Trained policies, training logs and videos are not stored in the repository because of their size.
+All commands are run from the repository root; training runs, logs and videos are written there too. Trained policies, training logs and videos are not stored in the repository because of their size.
 
 
 ## Setup
@@ -92,7 +94,7 @@ Two dependencies are installed separately:
 Then confirm everything works:
 
 ```bash
-python run_all.py check
+python src/run_all.py check
 ```
 
 This validates the layouts, runs the simulation, performs a short training run and evaluation, and reports how fast your machine trains. The networks are small, so training runs on the CPU, with many jobs in parallel.
@@ -103,18 +105,18 @@ This validates the layouts, runs the simulation, performs a short training run a
 The complete final experiment (140 training runs, nine evaluation suites, analysis and videos):
 
 ```bash
-nohup python run_all.py all --jobs 12 --runs-dir runs_final > run_final.log 2>&1 &
+nohup python src/run_all.py all --jobs 12 --runs-dir runs_final > run_final.log 2>&1 &
 ```
 
 The defaults are the final configuration: 10 seeds (10 to 19), 10M steps per run, snapshots at 3M and 6M. On an Intel i9-12900K this took about 20.5 hours. Set `--jobs` to about half your CPU threads.
 
 | To | Run |
 |---|---|
-| See progress, speed and time left | `python run_all.py status` |
-| Pause (everything saves within about a minute) | `python run_all.py pause` |
-| Continue after a pause, crash or restart | `nohup python run_all.py resume >> run_final.log 2>&1 &` |
-| Run one stage | `python run_all.py train`, `evaluate`, `analyze` or `video` |
-| Regenerate tables and figures from the saved CSVs | `python analyze.py` |
+| See progress, speed and time left | `python src/run_all.py status` |
+| Pause (everything saves within about a minute) | `python src/run_all.py pause` |
+| Continue after a pause, crash or restart | `nohup python src/run_all.py resume >> run_final.log 2>&1 &` |
+| Run one stage | `python src/run_all.py train`, `evaluate`, `analyze` or `video` |
+| Regenerate tables and figures from the saved CSVs | `python src/analyze.py` |
 
 Every stage is resumable: finished training runs are skipped, evaluation jobs are cached, and all randomness is seeded.
 
@@ -144,7 +146,7 @@ The final design came out of three development batches, whose results are kept i
 2. A 3M-step batch showed the policy staying close to its imitation start for half of training.
 3. A 6M-step batch halved the throughput gap to ORCA while improving safety, but had not converged.
 
-The development work also found and fixed a collision metric in the proof of concept that could not register robot collisions. [docs/METHODOLOGY_NOTES.md](docs/METHODOLOGY_NOTES.md) records every change from the original methodology and why it was made.
+The development work also found and fixed a collision metric in the proof of concept that could not register robot collisions. [docs/METHODOLOGY-NOTES.md](docs/METHODOLOGY-NOTES.md) records every change from the original methodology and why it was made.
 
 
 ## Limitations
