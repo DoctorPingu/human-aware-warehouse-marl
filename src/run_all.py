@@ -17,7 +17,8 @@ from typing import Dict, List, Optional, Tuple
 from layouts import LAYOUTS
 
 PY = sys.executable
-HERE = os.path.dirname(os.path.abspath(__file__))
+SRC = os.path.dirname(os.path.abspath(__file__))
+HERE = os.path.dirname(SRC)
 STATE = os.path.join(HERE, "run_state.json")
 PAUSE = os.path.join(HERE, "PAUSE")
 STATUS_TXT = os.path.join(HERE, "status.txt")
@@ -144,7 +145,7 @@ def last_progress(r: Dict) -> Tuple[int, float]:
 
 
 def train_cmd(r: Dict, a) -> List[str]:
-    cmd = [PY, "-u", "train.py", "--layout", r["layout"], "--seed", str(r["seed"]),
+    cmd = [PY, "-u", os.path.join(SRC, "train.py"), "--layout", r["layout"], "--seed", str(r["seed"]),
            "--tag", r["tag"], "--reward", r["reward"], "--timesteps", str(r["steps"]),
            "--runs-dir", a.runs_dir, "--threads", "1"] + r["extra"]
     if r["tag"] == "main" and a.snapshots:
@@ -391,7 +392,7 @@ def stage_train(stages: List[str], a) -> str:
             if all(run_done(x, a) for x in stages_of):
                 print(f"  [done] curriculum seed{r['seed']}")
             else:
-                jobs.append(([PY, "-u", "curriculum.py", "--seed", str(r["seed"]),
+                jobs.append(([PY, "-u", os.path.join(SRC, "curriculum.py"), "--seed", str(r["seed"]),
                               "--timesteps", str(a.timesteps), "--runs-dir", a.runs_dir],
                              r["log"]))
             chains.add(r["chain"])
@@ -414,7 +415,7 @@ def stage_evaluate(a) -> str:
             continue
         print(f"\n== Evaluate: {suite} ==", flush=True)
         write_state(eval_suite=suite)
-        rc = run_watched([PY, "evaluate.py", "--suite", suite, "--episodes", str(a.episodes),
+        rc = run_watched([PY, os.path.join(SRC, "evaluate.py"), "--suite", suite, "--episodes", str(a.episodes),
                           "--jobs", str(ej), "--runs-dir", a.runs_dir,
                           "--units", str(len(a.seeds.split(",")))])
         if rc == PAUSED_EXIT:
@@ -447,7 +448,7 @@ def stage_video(a) -> str:
         if not glob.glob(os.path.join(HERE, a.runs_dir, "main", lay, "seed*", "final.pt")):
             print(f"  [skip] no trained policy for {lay}")
             continue
-        jobs.append(([PY, "-u", "make_video.py", "--layout", lay, "--algos", VIDEO_ALGOS,
+        jobs.append(([PY, "-u", os.path.join(SRC, "make_video.py"), "--layout", lay, "--algos", VIDEO_ALGOS,
                       "--runs-dir", a.runs_dir, "--seconds", str(a.video_seconds),
                       "--name", os.path.basename(video_path(lay))],
                      os.path.join("logs", f"video_{lay}.log")))
@@ -461,19 +462,19 @@ def stage_video(a) -> str:
 
 def stage_check(a):
     print("\n== Check: layouts, environment, a tiny training run, a tiny evaluation ==")
-    if run([PY, "layouts.py"]) != 0:
+    if run([PY, os.path.join(SRC, "layouts.py")]) != 0:
         raise SystemExit("\nCheck failed at layouts.py. Send the output above.")
-    if run([PY, "warehouse_env.py"]) != 0:
+    if run([PY, os.path.join(SRC, "warehouse_env.py")]) != 0:
         raise SystemExit("\nCheck failed at warehouse_env.py. Send the output above.")
 
     tmp = tempfile.mkdtemp(prefix="warehouse_check_")
     runs, res = os.path.join(tmp, "runs"), os.path.join(tmp, "results")
     steps = [
-        ("train.py", [PY, "train.py", "--layout", "small1", "--timesteps", "40000",
+        ("train.py", [PY, os.path.join(SRC, "train.py"), "--layout", "small1", "--timesteps", "40000",
                       "--bc-steps", "8000", "--max-steps", "2000", "--runs-dir", runs]),
-        ("evaluate.py", [PY, "evaluate.py", "--suite", "smoke", "--runs-dir", runs,
+        ("evaluate.py", [PY, os.path.join(SRC, "evaluate.py"), "--suite", "smoke", "--runs-dir", runs,
                          "--out", res, "--jobs", "1"]),
-        ("analyze.py", [PY, "analyze.py", "--results", res, "--runs-dir", runs]),
+        ("analyze.py", [PY, os.path.join(SRC, "analyze.py"), "--results", res, "--runs-dir", runs]),
     ]
     t0 = time.time()
     rate = None
@@ -586,7 +587,7 @@ def main(argv=None):
             res = stage_evaluate(a)
         elif phase == "analyze":
             print("\n== Analyse ==", flush=True)
-            rc = run_watched([PY, "analyze.py", "--runs-dir", a.runs_dir,
+            rc = run_watched([PY, os.path.join(SRC, "analyze.py"), "--runs-dir", a.runs_dir,
                               "--final-steps", str(a.timesteps)])
             res = "paused" if rc == PAUSED_EXIT else ("done" if rc == 0 else "failed")
             if res == "done":

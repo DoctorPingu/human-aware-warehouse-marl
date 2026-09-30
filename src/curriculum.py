@@ -7,7 +7,8 @@ import sys
 from typing import List, Tuple
 
 PY = sys.executable
-HERE = os.path.dirname(os.path.abspath(__file__))
+SRC = os.path.dirname(os.path.abspath(__file__))
+HERE = os.path.dirname(SRC)
 PAUSED_EXIT = 3
 STAGES = [
     ("curriculum_stage1", "small_1_parallel_aisle", 0.3, "standard"),
@@ -56,7 +57,7 @@ def main() -> None:
             continue
         if state["stop"]:
             sys.exit(PAUSED_EXIT)
-        cmd = [PY, "-u", "train.py", "--layout", lay, "--seed", str(a.seed), "--tag", tag,
+        cmd = [PY, "-u", os.path.join(SRC, "train.py"), "--layout", lay, "--seed", str(a.seed), "--tag", tag,
                "--reward", "v2", "--timesteps", str(steps), "--demand", dem,
                "--runs-dir", a.runs_dir, "--threads", str(a.threads)]
         if os.path.exists(os.path.join(run_dir, "latest.pt")):

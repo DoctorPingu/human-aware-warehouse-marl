@@ -185,7 +185,7 @@ def legend_items():
 
 
 if __name__ == "__main__":
-    out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "figures", "layouts_3d")
+    out = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "figures", "layouts_3d")
     os.makedirs(out, exist_ok=True)
     names = list(LAYOUTS)
     for n in names:

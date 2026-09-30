@@ -60,11 +60,10 @@ Full tables, significance tests and figures for every suite are in [results/anal
 │   └── 6m/                     6M-step development batch results
 ├── docs/
 │   ├── PRE-REGISTRATION.md     Hypotheses and analysis plan, registered before the final run
-│   ├── METHODOLOGY-NOTES.md    Every change from the original methodology, with reasons
-│   ├── presentations/          Pitch decks and scripts
-│   └── thesis/                 Research proposal and thesis
+│   └── METHODOLOGY-NOTES.md    Every change from the original methodology, with reasons
 └── requirements.txt
 ```
+
 All commands are run from the repository root; training runs, logs and videos are written there too. Trained policies, training logs and videos are not stored in the repository because of their size.
 
 
