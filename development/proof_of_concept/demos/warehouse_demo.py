@@ -2,7 +2,7 @@
 Warehouse Multi-Agent Coordination Demo
 Honours Project: Deep Reinforcement Learning for Multi-Agent Coordination
 in Mixed Human-Robot Warehouse Environments
-Mohammed Al-Khudhair - 24826341
+Mohammed Al-Khudhair
 
 Built using the Habitat 3.0 framework (Puig et al., 2023).
 This script simulates a mixed human-robot warehouse environment with:

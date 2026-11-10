@@ -5,14 +5,14 @@ Deep reinforcement learning for coordinating warehouse robots that share their a
 Mohammed Al-Khudhair · Bachelor of Computing Science (Honours), University of Technology Sydney
 Honours Project 31482, Spring 2026 · Supervisor: Dr Mingshan Jia
 
-> Status: research code accompanying an Honours thesis in progress. Results are final; documentation will be completed with the thesis.
+> Status: complete. Research code, results and videos accompanying the Honours thesis submitted in November 2026.
 
 
 ## Overview
 
 Autonomous mobile robots increasingly work alongside people in warehouses. Classical coordination methods were largely designed for robot-only floors, and around people they tend either to stop and idle or to come too close.
 
-This project trains a fleet coordination policy with multi-agent deep reinforcement learning, using centralised training with decentralised execution (CTDE) and Proximal Policy Optimisation (PPO), and a reward that penalises entering the 0.8 m safety zone around people (informed by ISO 10218 and ISO 15066). It compares the learned policy against three classical controllers across six warehouse layouts and 24 experimental conditions, and tests how well it holds up beyond its training conditions.
+This project trains a fleet coordination policy with multi-agent deep reinforcement learning, using centralised training with decentralised execution (CTDE) and Proximal Policy Optimisation (PPO), and a reward that penalises entering the 0.8 m safety zone around people (informed by ISO 10218 and ISO/TS 15066). It compares the learned policy against three classical controllers across six warehouse layouts and 24 experimental conditions, and tests how well it holds up beyond its training conditions.
 
 
 ## Key results
@@ -32,7 +32,7 @@ Main comparison: 24 conditions, 10 independently trained seeds, 2,880 ten-minute
 - Throughput was still rising at 10M training steps (220, 249 and 279 orders per hour at 3M, 6M and 10M), so the policies had not converged.
 - Nine of ten pre-registered hypotheses were supported (see [docs/PRE-REGISTRATION.md](docs/PRE-REGISTRATION.md)).
 
-Full tables, significance tests and figures for every suite are in [results/analysis/summary.md](results/analysis/summary.md).
+Full tables, significance tests and figures for every suite are in [results/analysis/summary.md](results/analysis/summary.md). Side-by-side videos of all four controllers on each layout are in [videos/](videos).
 
 
 ## Repository structure
@@ -54,17 +54,18 @@ Full tables, significance tests and figures for every suite are in [results/anal
 │   └── render_layouts_3d.py    Illustrative 3D renders of the layouts
 ├── results/                    Final results: one CSV per suite, plus results/analysis (tables and figures)
 ├── development/                Earlier work, kept as a record of how the method evolved
-│   ├── proof_of_concept/       The first environment, trainer and demos
+│   ├── proof_of_concept/       The first environment, trainer and demo scripts
 │   ├── pilot/                  Pilot batch results
 │   ├── 3m/                     3M-step development batch results
 │   └── 6m/                     6M-step development batch results
+├── videos/                     Side-by-side comparison videos of the four controllers, one per layout
 ├── docs/
 │   ├── PRE-REGISTRATION.md     Hypotheses and analysis plan, registered before the final run
 │   └── METHODOLOGY-NOTES.md    Every change from the original methodology, with reasons
 └── requirements.txt
 ```
 
-All commands are run from the repository root; training runs, logs and videos are written there too. Trained policies, training logs and videos are not stored in the repository because of their size.
+All commands are run from the repository root, and training runs, logs and videos are written there too. Trained policies and training logs are not stored in the repository because of their size. The six final comparison videos are included in `videos/`.
 
 
 ## Setup

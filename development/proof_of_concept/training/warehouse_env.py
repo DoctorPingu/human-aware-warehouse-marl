@@ -2,7 +2,7 @@
 Warehouse Multi-Agent Gymnasium Environment
 Honours Project: Deep Reinforcement Learning for Multi-Agent Coordination
 in Mixed Human-Robot Warehouse Environments
-Mohammed Al-Khudhair - 24826341
+Mohammed Al-Khudhair
 
 This module defines the WarehouseEnv class, a multi-agent Gymnasium-compatible
 environment for training autonomous mobile robots (AMRs) to coordinate in a

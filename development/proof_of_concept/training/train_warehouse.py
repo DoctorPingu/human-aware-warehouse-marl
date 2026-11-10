@@ -2,7 +2,7 @@
 CTDE PPO Training - Warehouse Multi-Agent Coordination
 Honours Project: Deep Reinforcement Learning for Multi-Agent Coordination
 in Mixed Human-Robot Warehouse Environments
-Mohammed Al-Khudhair - 24826341
+Mohammed Al-Khudhair
 
 Architecture: Centralised Training with Decentralised Execution (CTDE)
 Algorithm:    Proximal Policy Optimisation (PPO)

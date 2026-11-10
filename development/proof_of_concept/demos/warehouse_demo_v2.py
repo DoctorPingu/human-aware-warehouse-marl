@@ -2,7 +2,7 @@
 Warehouse Multi-Agent Coordination Demo v2 - Isometric View
 Honours Project: Deep Reinforcement Learning for Multi-Agent Coordination
 in Mixed Human-Robot Warehouse Environments
-Mohammed Al-Khudhair - 24826341
+Mohammed Al-Khudhair
 """
 
 import numpy as np

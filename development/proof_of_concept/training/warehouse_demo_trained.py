@@ -2,7 +2,7 @@
 Trained Policy Visualisation - Warehouse Multi-Agent Coordination
 Honours Project: Deep Reinforcement Learning for Multi-Agent Coordination
 in Mixed Human-Robot Warehouse Environments
-Mohammed Al-Khudhair - 24826341
+Mohammed Al-Khudhair
 
 Loads the trained CTDE PPO model and records a demo video showing:
   - Trained robot coordination behaviour
