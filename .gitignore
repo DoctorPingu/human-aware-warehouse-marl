@@ -9,3 +9,4 @@ parts/
 run_state.json
 status.txt
 eval_progress.json
+development/**/*.mp4
