@@ -2,10 +2,9 @@ __pycache__/
 *.pyc
 runs*/
 logs*/
-videos*/
 parts/
 *.pt
-*.mp4
+*.partial.mp4
 *.log
 run_state.json
 status.txt
