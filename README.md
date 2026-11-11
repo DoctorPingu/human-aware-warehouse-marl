@@ -3,7 +3,7 @@
 Deep reinforcement learning for coordinating warehouse robots that share their aisles with people.
 
 Mohammed Al-Khudhair - Bachelor of Computing Science (Honours), University of Technology Sydney
-Honours Project 31482, Spring 2026 · Supervisor: Dr Mingshan Jia
+Honours Project 31482, Spring 2026 - Supervisor: Dr Mingshan Jia
 
 > Status: complete. Research code, results and videos accompanying the Honours thesis submitted in November 2026.
 
